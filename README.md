@@ -1,4 +1,5 @@
 # Analysis scripts for Li, et. al.
+[![DOI](https://zenodo.org/badge/318900139.svg)](https://zenodo.org/badge/latestdoi/318900139)
 
 ### Figure Legends
 Microarray expression values were z-score scaled. Samples were clustered via calculating the Euclidean distance between centroids. See ([1](https://doi.org/10.1016/j.cmet.2019.11.002)) for raw data curation and ([2](https://github.com/j-berg/summers_2020)) for the associated analysis code for this manuscript. The data was originally generated as part of ([3](https://doi.org/10.1371/journal.pone.0013091)) and ([4](https://doi.org/10.1158/1541-7786.mcr-07-0267)) and can be accessed using the GEO identifiers [GSE20916](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE20916) and [GSE8671](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE8671) ([5](https://www.ncbi.nlm.nih.gov/geo/)).
@@ -47,7 +48,7 @@ Effect sizes were scaled as follows (11-12):
 | Very large       | 1.20        | [12]        |
 | Huge             | 2.0         | [11]        |
 
-Statistics and figures related to processing the heatmaps and GEO database datasets were performed in Python (v3.8.6). Data processing and analyses can be interactively replicated using Jupyter Notebook ([https://jupyter.org](https://jupyter.org)) at ([13](https://zenodo.org/)).
+Statistics and figures related to processing the heatmaps and GEO database datasets were performed in Python (v3.8.6). Data processing and analyses can be interactively replicated using Jupyter Notebook ([https://jupyter.org](https://jupyter.org)) at ([13](https://zenodo.org/record/4567545)).
 
 ### References
 [1] Bensard CL, Wisidagama DR, Olson KA, Berg JA, Krah NM, Schell JC, Nowinski SM, Fogarty S, Bott AJ, Wei P, Dove KK, Tanner JM, Panic V, Cluntun A, Lettlova S, Earl CS, Namnath DF, Vázquez-Arreguín K, Villanueva CJ, Tantin D, Murtaugh LC, Evason KJ, Ducker GS, Thummel CS, Rutter J. Regulation of Tumor Initiation by the Mitochondrial Pyruvate Carrier. Cell Metab. 2020 Feb 4;31(2):284-300.e7. doi: 10.1016/j.cmet.2019.11.002.
@@ -62,7 +63,7 @@ Statistics and figures related to processing the heatmaps and GEO database datas
 [10] Seabold, Skipper, and Josef Perktold. “statsmodels: Econometric and statistical modeling with python.” Proceedings of the 9th Python in Science Conference. 2010.
 [11] Cohen, Jacob (1988). Statistical Power Analysis for the Behavioral Sciences. Routledge. ISBN 978-1-134-74270-7.
 [12] Sawilowsky, S (2009). "New effect size rules of thumb". Journal of Modern Applied Statistical Methods. 8 (2): 467–474. doi:10.22237/jmasm/1257035100.
-[13] Zenodo URL
+[13] [https://doi.org/10.5281/zenodo.4567545](https://zenodo.org/record/4567545)
 
 ### To reproduce the analyses from these scripts:
 The following example will show  how to install and run the analyses on a *nix OS.
